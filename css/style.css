@@ -31,6 +31,10 @@ img{
     width: 300px;
     height: 300px;
 }
+img:hover{
+    transition: 2s ease all;
+    transform: scale(1.2);
+}
 .header{
     font-family: 'Grechen Fuemen';
     position: fixed;
@@ -141,4 +145,13 @@ img{
     font-weight: 600;
     color: #fff; 
     font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+    .films__card{
+        margin-left: 50px;
+    }
+    img:hover{
+        transition: 2s ease all;
+        transform: scale(1.1);
+    }
 }

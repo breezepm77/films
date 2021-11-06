@@ -19,12 +19,13 @@ body{
     flex-direction: column;
     font-family: "Asap", sans-serif;
     background: linear-gradient(to right,orange,gold);
-    min-height: 100vh;
+    
 }
 .container{
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 img{
     max-width: 100%;
@@ -122,11 +123,16 @@ img:hover{
     color: red;
     font-size: 24px;
 }
+.input:focus{
+    outline: none;
+}
 .input::placeholder{
     color: red;
 }
 .footer{
     background: linear-gradient(to right,red,blue);
+    padding: 0;
+    margin: 0;
 }
 .footer__copyright{
     font-family: 'Grechen Fuemen';

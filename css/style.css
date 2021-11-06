@@ -66,11 +66,12 @@ img:hover{
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    justify-content: space-around;
     padding: 0;
 }
 .films__genre-list{
     list-style-type: none;
-    margin:15px 0px 15px 0px;
+    
     padding: 0;
 }
 .films__card{

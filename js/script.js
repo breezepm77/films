@@ -45,7 +45,7 @@ function renderGenres(filmArr, element){
 
 renderGenres(films, elSelect)
 
-elForm.addEventListener('submit', (e) =>{
+elForm.addEventListener('click', (e) =>{
     e.preventDefault();
     
     const inputValue = elInputSearch.value.trim();
